@@ -1,0 +1,32 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Add Device",
+                "description": "Please enter the device information to monitor",
+                "data": {
+                    "name": "Device Name",
+                    "host": "IP/Domain"
+                }
+            }
+        },
+        "error": {
+            "unknown": "Unknown error occurred"
+        },
+        "abort": {
+            "already_configured": "Device is already configured"
+        }
+    },
+    "entity": {
+        "sensor": {
+            "online_time": {
+                "name": "Online Time"
+            }
+        },
+        "binary_sensor": {
+            "status": {
+                "name": "Online Status"
+            }
+        }
+    }
+} 

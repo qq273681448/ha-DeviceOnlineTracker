@@ -1,0 +1,32 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "添加设备",
+                "description": "请输入要监控的设备信息",
+                "data": {
+                    "name": "设备名称",
+                    "host": "IP/域名"
+                }
+            }
+        },
+        "error": {
+            "unknown": "未知错误发生"
+        },
+        "abort": {
+            "already_configured": "该设备已经配置"
+        }
+    },
+    "entity": {
+        "sensor": {
+            "online_time": {
+                "name": "在线时长"
+            }
+        },
+        "binary_sensor": {
+            "status": {
+                "name": "在线状态"
+            }
+        }
+    }
+} 
