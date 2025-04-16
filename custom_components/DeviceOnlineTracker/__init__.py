@@ -168,7 +168,7 @@ class DeviceOnlineTrackerEntity(CoordinatorEntity):
         return DeviceInfo(
             identifiers={(DOMAIN, self.config_entry.entry_id)},
             name=self.config_entry.data[CONF_NAME],
-            manufacturer="Device Online Tracker",
-            model="捣鼓程序员",
+            manufacturer="捣鼓程序员",
+            model="Device Online Tracker",
             sw_version="1.0",
         ) 
