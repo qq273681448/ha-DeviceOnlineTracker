@@ -2,6 +2,8 @@
 
 # 教程
 基本使用 https://www.bilibili.com/video/BV1vHoTYcE85
+## 功能
+支持ip、域名、Mac地址（xx:xx:xx:xx:xx:xx）
 
 # 安装
 ## 方法一：
