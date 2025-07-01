@@ -29,7 +29,7 @@ class DeviceOnlineTimeSensor(DeviceOnlineTrackerEntity, SensorEntity):
     def __init__(self, coordinator, config_entry):
         """Initialize the sensor."""
         super().__init__(coordinator, config_entry, "online_time")
-        self._attr_native_unit_of_measurement = "minutes"
+        self._attr_native_unit_of_measurement = "min"
         self._attr_device_class = SensorDeviceClass.DURATION
         self._attr_icon = "mdi:timer"
         self._attr_name = "Online Time"

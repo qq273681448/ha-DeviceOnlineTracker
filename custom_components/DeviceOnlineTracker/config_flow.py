@@ -20,7 +20,9 @@ class DeviceOnlineTrackerConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
         errors = {}
 
         if user_input is not None:
+            # 验证输入
             try:
+                # 确保设备名称唯一
                 await self.async_set_unique_id(user_input[CONF_NAME])
                 self._abort_if_unique_id_configured()
 

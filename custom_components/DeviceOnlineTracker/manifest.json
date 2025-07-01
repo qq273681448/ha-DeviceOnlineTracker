@@ -5,7 +5,7 @@
   "dependencies": [],
   "codeowners": ["@捣鼓程序员"],
   "requirements": ["icmplib>=3.0.0"],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "config_flow": true,
   "iot_class": "local_polling",
   "icon": "brands/logo.png"
