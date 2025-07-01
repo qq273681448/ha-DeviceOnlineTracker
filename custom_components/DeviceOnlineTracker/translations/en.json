@@ -6,7 +6,7 @@
                 "description": "Please enter the device information to monitor",
                 "data": {
                     "name": "Device Name",
-                    "host": "IP/Domain"
+                    "host": "IP/Domain/MAC"
                 }
             }
         },

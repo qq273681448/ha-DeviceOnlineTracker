@@ -6,7 +6,7 @@
                 "description": "请输入要监控的设备信息",
                 "data": {
                     "name": "设备名称",
-                    "host": "IP/域名"
+                    "host": "IP/域名/MAC"
                 }
             }
         },
